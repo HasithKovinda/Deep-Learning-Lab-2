@@ -1,0 +1,14 @@
+1) Accuracy increases rapidly and gradually slows down and come to a maximum and start reducing slowly when further increasing number of hidden nodes.
+
+
+2)
+• As the number of hidden nodes increases, the model becomes more flexible and capable of capturing intricate relationships within the data.
+
+• Initially, when the number of hidden nodes is low (e.g., 1 or 2), the model might struggle to capture the underlying patterns in the data, resulting in lower accuracy.
+
+• As increase the number of hidden nodes, the accuracy tends to improve because the model can better approximate the complex decision boundaries in the data. This is often seen in the range of 3 to 5 hidden nodes, where you experience a significant jump in accuracy.
+
+• However, after a certain point, increasing the number of hidden nodes further might lead to diminishing returns or even overfitting. Overfitting occurs when the model becomes too specialized to the training data and starts to perform poorly on new, unseen data. This is why that the accuracy improvement slows down or even starts to decrease beyond a certain number of hidden nodes (as seen when going from 5 to 20 or 50 hidden nodes in your example).
+
+• The pattern of accuracy improvement might also depend on the complexity of the problem and the amount of available data. In some cases, adding more hidden nodes might continue to improve accuracy, but this is not guaranteed and often requires careful experimentation.
+
